@@ -1,0 +1,430 @@
+body{padding-top: 70px}
+/*,,,,,,,,,,,start,,,,,,,,,,,,,,,,,,,,,,,,,,,,, navbar*/
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>
+.active>a:focus, .navbar-inverse .navbar-nav>
+.active>a:hover{background-color: #E41b17}
+
+.navbar-inverse .navbar-nav>li>a{
+            color:#D0D0D0;
+            padding-bottom: 25px;
+            padding-top: 25px
+}
+
+.navbar{min-height: 70px}
+
+.navbar-inverse .navbar-brand{
+    color: #BBB;
+    font-size: 30px;
+    line-height: 40px
+}
+
+.navbar-inverse .navbar-brand span{
+    color: #E41b17
+}
+
+.dropdown-menu{background-color: #333;
+            border-top:3px solid #E41b17;
+            min-width: 200px;
+            
+}
+
+.navbar-inverse .navbar-nav>li>a{font-size: 18px}
+
+.dropdown-menu>li>a{color: #FFF;
+            padding:6px 20px;
+            transition:padding .5s ease 
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+    background-color: #E41b17;
+    color: #FFF;
+    padding-left: 25px;
+    font-size: 18px;
+
+}
+
+.dropdown-menu .divider{background-color: #871818}
+
+.navbar-right .dropdown-menu{
+            left: 0;
+            right: auto;
+}
+
+.navbar-right{margin-right: 50px}
+
+.navbar-default .navbar-toggle{margin-top: 18px}
+/*,,,,,,,,,end ,,,,,,,,,,,navbar*/
+
+/*,,,,,,,,start of carousel,,,,,,,,,*/
+.carousel-caption{bottom: 25%;
+            background:rgba(3,3,3,0.3);
+            padding-left: 30px;
+            padding-right: 30px;
+            color: black;
+            text-shadow: 0px 0px 10px #5061C4
+}
+.carousel-indicators li{
+    height: 20px;
+    width: 20px
+}
+/*,,,,,,,,end of carousel,,,,,,,,,,,,,,,,,*/
+
+/*,,,,,start section,,,,,,,,*/
+
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+.about .lead{
+    color:#888;
+    font-size: 25px;
+    margin-top: 15px
+}
+.about h1 span ,.about h3 span{
+    color:#E41B17;
+    font-weight: bold
+}
+
+/*,,,,,end section,,,,,,,,*/
+
+.features{background-color: #EEE;
+        padding-top: 50px;
+        padding-bottom: 50px
+}
+
+.features h1{margin-bottom: 50px}
+
+.features .feat p{line-height: 2em}
+
+.features .feat span .glyphicon{
+        font-size: 25px;
+        margin-bottom: 10px;
+        color:gray;
+}
+
+.testimonials
+{
+    padding-top: 50px;
+    padding-bottom: 50px
+    
+}
+.testimonials h1
+{
+    font-weight: bold;
+    margin-bottom: 20px
+}
+.testimonials .lead 
+{
+    line-height: 2em;
+    margin-bottom: 10px
+}
+.testimonials span
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.testimonials .carousel-inner
+{
+    min-height: 160px
+}
+.testimonials .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testimonials .carousel-indicators li
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0.4;
+    border: 2px solid #fff;
+    margin:5px;
+    transition: all 1s ease
+}
+.testimonials .carousel-indicators li.active
+{
+    opacity: 1;
+    background-color:none;
+}
+
+.testimonials .carousel-indicators li img
+{
+    max-width: 100%;   
+}
+
+/*-------end avatar-----------*/
+
+
+/*----------start price box-----*/
+
+.price-table .price-box h1{
+    margin-bottom: 50px;
+
+}
+
+.price-table{
+    background-color: #EEE;
+    padding-bottom: 40px;
+    padding-top: 40px
+}
+
+.price-table .price-box{
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px
+}
+
+.price-table .price-box:hover p{
+     border:2px solid #DFDFDF;
+   -webkit-transform: scale(1.1,1.1)rotate(360deg);
+    transform: scale(1.1,1.1)rotate(360deg)
+}
+
+.price-table .price-box h2{
+    margin: 5px 0 15px 
+}
+
+.price-table .price-box p{
+    font-size: 35px;
+    font-weight: bold;
+    color:#666;
+    width: 100px;
+    height: 100px;
+    background-color: #F3F3F3;
+    border:2px solid #FFF;
+    border-radius: 50%;
+    line-height:100px;
+    transition-duration: .8s;
+}
+
+
+
+.price-table .price-box ul{
+    line-height:250% ;
+    font-size: 18px;
+    
+}
+
+.price-table .price-box a{
+    margin-bottom: 5px
+}
+
+/*-----end price box----------*/
+
+
+/*---------our team ---------*/
+.our-team{
+      background: url('../img/02.jpg')no-repeat center center fixed;
+       background-size: cover;
+      min-height: 600px;
+}
+.our-team .team{
+        background-color: rgba(2,2,2,0.8);
+        color: #FFF;
+        min-height: 600px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+}
+
+our-team h1{margin-bottom: 60px}
+
+.our-team .person{
+            margin-bottom: 40px
+}
+
+/*---------our team ---------*/
+
+.subscribe{
+            padding-top: 40px;
+            padding-bottom: 70px;
+            background-color: #AAA
+}
+
+.subscribe h1{color:#FFF;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+}
+.subscribe p{
+            margin-bottom: 30px;
+            
+}
+
+.subscribe .form-control{
+            width: 300px;
+            margin: 20px auto;
+             width: 75%
+}
+
+.subscribe button{border-radius: 0}
+
+            /*--------- end subscribe----*/
+
+
+/*-------statistics-----*/
+
+.statistics{
+            background: url('../img/vc.jpg')no-repeat center center fixed;
+            background-size: cover;
+            min-height: 300px
+}
+.statistics .data{
+            background-color: rgba(2,2,2,0.7);
+            color: #B6B6B6;
+            min-height: 300px;
+            padding-top: 40px;
+            padding-bottom: 70px;
+}
+
+.statistics h1{
+            margin-bottom: 60px;
+            
+}
+
+.statistics p{
+         font-size:60px;
+         font-weight: bold;
+         margin-bottom: 0
+}
+.statistics .stats{
+            transition:all .5s ease-in-out;
+            margin-bottom: 30px
+}
+.statistics .stats:hover{color:#FFF}
+
+/*-----------statistics----*/
+
+/*-----------skills----*/
+
+.our-skills
+{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    
+}
+.our-skills h1
+{
+    margin-bottom: 60px;
+    
+}
+.our-skills .progress
+{
+    height: 36px
+}
+.our-skills .progress .progress-bar
+{
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+/*-----------skills----*/
+
+/*------------contact---------*/
+
+.contact-us{
+            background: url('../img/xx.png')no-repeat center center fixed;
+            background-size: cover;
+            min-height: 300px
+}
+
+.contact-us .fields{
+            background: rgba(9,9,9,0.8);
+            min-height: 300px;
+            color: #DDD;
+            padding-top: 40px;
+            padding-bottom: 40px;
+}
+.contact-us p{margin-bottom: 40px;}
+
+.contact-us textarea{height: 108px}
+
+.contact-us input[type="text"],
+.contact-us textarea{
+            background:rgba(82,78,78,0.7);
+                        color: #FFF;
+                        border: none}
+
+/*------------contact---------*/
+/*---------end--------*/
+.end{background-color: gray;
+    margin-top: 50px;
+}
+.end h3{color: #540505;
+       font-weight: bold;
+       padding-top: 20px;
+       padding-bottom: 20px;
+}
+.part-a p{font-weight: bold}
+
+.icons i{color: #540505;
+         margin-left: 10px;
+         margin-top: 30px
+}
+
+
+.part-c img{margin: 10px;border-radius: 20px}
+
+
+.person:hover{transform: scale3d(1.1, 1.1, 1.1)}
+.contact-us .fields:hover button{background-color: red}
+.contact-us .fields:hover i{color:red}
+
+
+/*--------start all hover--------*/
+.features:hover p,.features:hover i,.features:hover h4,
+.contact-us .fields:hover i,
+.contact-us .fields:hover button,
+.container-fluid:hover a,
+.about:hover p,.about:hover h1
+{
+  animation-name: bounceIn;
+  animation-duration: .75s;
+  animation-duration: 1s;
+  animation-fill-mode: both}
+  @-webkit-keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)}
+  0% {opacity: 0;transform: scale3d(.3, .3, .3)}
+  20% {transform: scale3d(1.1, 1.1, 1.1)}
+  40% {transform: scale3d(.9, .9, .9)}
+  60% {opacity: 1;transform: scale3d(1.03, 1.03, 1.03)}
+  80% {transform: scale3d(.97, .97, .97)}
+  100% {opacity: 1;transform: scale3d(1, 1, 1)}
+  }
+  @keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)}
+  0% {opacity: 0;transform: scale3d(.3, .3, .3)}
+  20% {transform: scale3d(1.1, 1.1, 1.1)}
+  40% {transform: scale3d(.9, .9, .9)}
+  60% {opacity: 1;transform: scale3d(1.03, 1.03, 1.03)}
+  80% {transform: scale3d(.97, .97, .97)}
+  100% {opacity: 1;transform: scale3d(1, 1, 1)}
+  }
+  /*-------end--all hover--------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
